@@ -1,0 +1,22 @@
+{
+  "name": "proxy",
+  "description": "Deploy proxy on Heroku",
+  "keywords": ["proxy"],
+  "env": {
+    "UUID": {
+       "description": "uuid",
+       "value": "9c6608ac-cdab-4e19-bae6-13629961a827"
+    },
+    "VLESS": {
+       "description": "vless path",
+       "value": "/vless"
+    },
+    "VMESS": {
+       "description": "vmess path",
+       "value": "/vmess"
+    }
+  },
+  "website": "https://nginx.org/",
+  "repository": "https://nginx.org/",
+  "stack": "container"
+}
